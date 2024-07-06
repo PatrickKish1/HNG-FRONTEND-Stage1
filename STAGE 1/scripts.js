@@ -7,6 +7,6 @@ function updateDateTime() {
     document.querySelector('[data-testid="currentDay"]').textContent = dayOfWeek;
 }
 
-// Update time every second
+
 setInterval(updateDateTime, 1000);
 updateDateTime();
