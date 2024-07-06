@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <p class="left">Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+        <p class="right">Current Day: <span data-testid="currentDay"></span></p>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <img src="./profile.png" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="200" height="200">
+            <div class="online-indicator"></div>
+        </div>
+    </header>
+    
+    <div class="name-email">
+        <h1 data-testid="slackDisplayName">@Patrick Amenuku 1️⃣</h1>
+        <p data-testid="slackEmail">patrickkesh90@gmail.com</p>
+    </div>
+    
+    <main>
+        <section class="goals">
+            <h2>My Tech Goals for the Next 2 Years</h2>
+            <p>As a budding web developer with immense potential for growth, I aim to master HTML, CSS, and JavaScript, providing a solid foundation in web development. My journey includes learning a JavaScript framework like React.js or Vue.js to create dynamic applications. Understanding version control with Git and GitHub is crucial for collaboration and project management. I plan to build a personal portfolio to showcase my skills and projects, which will be pivotal in landing a job. Exploring backend development with Node.js and Express.js, along with gaining proficiency in both SQL and NoSQL databases like MongoDB, will round out my full-stack development capabilities. Contributing to open-source projects will enhance my learning and community engagement. Focusing on responsive design ensures my projects are mobile-friendly and adaptable to various screen sizes. Additionally, learning about web performance optimization will help me create fast-loading, efficient websites. My overarching goal is to work on amazing projects with talented individuals, ultimately leading to securing a job in the tech industry. Staying updated with the latest trends and technologies is a continuous process that will drive my career forward.</p>
+        </section>
+
+        <section class="links">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
